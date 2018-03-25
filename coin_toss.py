@@ -24,6 +24,5 @@ if __name__ == '__main__':
     tosses2 = df_coinflip(TOSSES, PATHS, p=0.75)
     ax = tosses1.T.plot(color='blue', alpha=0.2, legend=None, xticks=col_idx[::5])
     ax2 = tosses2.T.plot(color='yellow', alpha=0.2, legend=None, xticks=col_idx[::5], ax=ax)
-
     fig = ax2.get_figure()
     fig.savefig('tosses.png')
