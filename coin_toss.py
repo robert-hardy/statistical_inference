@@ -1,9 +1,25 @@
 import numpy as np
 import pandas as pd
 
-TOSSES = 5
+TOSSES = 20
 PATHS = 50
 
 np.random.seed(1)
-samples = pd.DataFrame(data=np.random.rand(PATHS, TOSSES),
-                       columns=range(1, 1+TOSSES))
+tosses1 = df_coinflip(TOSSES, PATHS, p=0.5)
+tosses2 = df_coinflip(TOSSES, PATHS, p=0.75)
+ax = tosses1.T.plot(color='blue', alpha=0.2, legend=None, xticks=col_idx[::5])
+tosses2.T.plot(color='yellow', alpha=0.2, legend=None, xticks=col_idx[::5], ax=ax)
+
+
+def df_coinflip(nb_tosses, nb_paths, p=0.5):
+    """
+    Returns a pd.DataFrame (nb_paths X nb_tosses), where p is the probability
+    of getting a head.
+    """
+    samples = np.random.rand(nb_paths, nb_tosses)
+    col_idx = list(range(1+nb_tosses))
+    tosses = pd.DataFrame(np.where(samples<p, 1, 0), columns=col_idx[1:])
+    tosses[0] = 0
+    tosses = tosses[col_idx]
+    cum_tosses = tosses.cumsum(axis=1)
+    return cum_tosses
