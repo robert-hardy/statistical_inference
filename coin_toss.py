@@ -19,11 +19,14 @@ def df_coinflip(nb_tosses, nb_paths, p=0.5):
 if __name__ == '__main__':
     TOSSES = 20
     PATHS = 20
+    ALPHA=0.1
     np.random.seed(1)
     tosses1 = df_coinflip(TOSSES, PATHS, p=0.5)
     tosses2 = df_coinflip(TOSSES, PATHS, p=0.75)
     col_idx = tosses1.columns.tolist()
-    ax = tosses1.T.plot(color='blue', alpha=0.2, legend=None, xticks=col_idx[::5])
-    ax2 = tosses2.T.plot(color='red', alpha=0.2, legend=None, yticks=col_idx[::5], ax=ax)
+    ax = tosses1.T.plot(color='blue', alpha=ALPHA, legend=None, xticks=col_idx[::5])
+    ax2 = tosses2.T.plot(color='red', alpha=ALPHA, legend=None, yticks=col_idx[::5], ax=ax)
+    single_path = tosses1.loc[7]
+    single_path.plot(ax=ax2, color='black', lw=3)
     fig = ax2.get_figure()
     fig.savefig('tosses.png')
