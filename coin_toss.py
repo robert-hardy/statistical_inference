@@ -1,15 +1,6 @@
 import numpy as np
 import pandas as pd
 
-TOSSES = 20
-PATHS = 50
-
-np.random.seed(1)
-tosses1 = df_coinflip(TOSSES, PATHS, p=0.5)
-tosses2 = df_coinflip(TOSSES, PATHS, p=0.75)
-ax = tosses1.T.plot(color='blue', alpha=0.2, legend=None, xticks=col_idx[::5])
-tosses2.T.plot(color='yellow', alpha=0.2, legend=None, xticks=col_idx[::5], ax=ax)
-
 
 def df_coinflip(nb_tosses, nb_paths, p=0.5):
     """
@@ -23,3 +14,16 @@ def df_coinflip(nb_tosses, nb_paths, p=0.5):
     tosses = tosses[col_idx]
     cum_tosses = tosses.cumsum(axis=1)
     return cum_tosses
+
+
+if __name__ == '__main__':
+    TOSSES = 20
+    PATHS = 50
+    np.random.seed(1)
+    tosses1 = df_coinflip(TOSSES, PATHS, p=0.5)
+    tosses2 = df_coinflip(TOSSES, PATHS, p=0.75)
+    ax = tosses1.T.plot(color='blue', alpha=0.2, legend=None, xticks=col_idx[::5])
+    ax2 = tosses2.T.plot(color='yellow', alpha=0.2, legend=None, xticks=col_idx[::5], ax=ax)
+
+    fig = ax2.get_figure()
+    fig.savefig('tosses.png')
