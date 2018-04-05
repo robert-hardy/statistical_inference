@@ -36,13 +36,13 @@ Logical inference gives conclusions that are guaranteed to be true it which give
 
 Meet F
 ====
-F: <thinks> … for a fair coin: P(HH)= 0.25, so if I declare “the coin is biased!” I will commit a Type-1 error 25% of the time …
+F: [thinks] … for a fair coin: P(HH)= 0.25, so if I declare “the coin is biased!” I will commit a Type-1 error 25% of the time …
 
-F: <says> I declare that the coin is biased (and reserve the right to be wrong 25% of the time).
+F: I declare that the coin is biased, with a p value of 0.25.
 
 ‘Yes, but do you _reckon_ the coin is biased?’
 
-F: <no answer> (F is avoiding the question).
+F: [no answer].
 
 ---
 
