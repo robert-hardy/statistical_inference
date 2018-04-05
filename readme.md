@@ -9,3 +9,7 @@ Install
 Dev install with
 
     pip install -e .
+
+GitPitch
+====
+Go see [here](https://gitpitch.com/robert-hardy/statistical_inference/master)
