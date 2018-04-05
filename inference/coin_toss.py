@@ -2,6 +2,11 @@ import numpy as np
 import pandas as pd
 
 
+TOSSES = 20
+PATHS = 20
+ALPHA = 0.1
+SEED = 1
+
 def df_coinflip(nb_tosses, nb_paths, p=0.5):
     """
     Returns a pd.DataFrame (nb_paths X nb_tosses), where p is the probability
@@ -16,11 +21,8 @@ def df_coinflip(nb_tosses, nb_paths, p=0.5):
     return cum_tosses
 
 
-if __name__ == '__main__':
-    TOSSES = 20
-    PATHS = 20
-    ALPHA=0.1
-    np.random.seed(1)
+def create_pngs():
+    np.random.seed(SEED)
     tosses1 = df_coinflip(TOSSES, PATHS, p=0.5)
     tosses2 = df_coinflip(TOSSES, PATHS, p=0.75)
     col_idx = tosses1.columns.tolist()
