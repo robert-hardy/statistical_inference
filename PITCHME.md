@@ -34,7 +34,7 @@ Logical inference gives conclusions that are guaranteed to be true it which give
 
 ---
 
-Meet F, the frequentist
+Meet F
 ====
 F: <thinks> … for a fair coin: P(HH)= 0.25, so if I declare “the coin is biased!” I will commit a Type-1 error 25% of the time …
 
@@ -46,7 +46,7 @@ F: <no answer> (F is avoiding the question).
 
 ---
 
-Meet B, the Bayesian
+Meet B
 ====
 
 B: ‘I originally reckoned that the coin was fair, but given the HH data I see, I have updated my estimate and now calculate that there is a 75% chance that the coin is biased.’
