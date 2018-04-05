@@ -60,10 +60,6 @@ B: ‘I originally reckoned that the coin was fair, but given the HH data I see,
 
 ---
 
-
-
----
-
 ‘Classical’ statistical inference makes precise, conclusions that often seem too technical:
 - I reject the null hypothesis with a p value of 0.25 (0.05 is a favourite).
 
