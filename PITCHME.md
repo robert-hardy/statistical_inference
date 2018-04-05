@@ -68,7 +68,11 @@ In this example with little data, the frequentist is clearly struggling.
 ---
 
 Bayesian inference gives conclusions that seem much more intuitive:
-- Given the data, I’m more persuaded the coin is biased (and I can be very precise about what I mean).
+- Given the data, I’m more persuaded the coin is biased.
+
+This 'update' process is very precise.
+
+Kruschke calls it _reallocating credibility_.
 
 ---
 
