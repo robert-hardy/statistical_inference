@@ -39,7 +39,7 @@ Logical inference gives conclusions that are guaranteed to be true it which give
 
 Meet F
 ====
-F: [thinks] … for a fair coin: P(HH)= 0.25, so if I declare “the coin is biased!” I will commit a Type-1 error 25% of the time …
+F: [thinks] For a fair coin: P(HH)= 0.25, so if I declare “the coin is biased!” I will be wrong 25% of the time.
 
 F: The coin is biased, with a p value of 0.25.
 
