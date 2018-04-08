@@ -22,9 +22,8 @@ A coin is tossed twice and shows two heads. What can your infer?
 
 ---
 
-### Logical inference
 
-Logic gives us conclusions that are guaranteed to be true but which are too weak to give any value here.
+Logical inference is too weak.
 
 > The coin could be biased.
 
