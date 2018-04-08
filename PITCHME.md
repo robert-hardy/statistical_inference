@@ -65,6 +65,14 @@ Frequentists phrase their conclusions like:
 
 ### Meet B
 
+Bayesian inference corresponds more closely to our intuition:
+
+> Given the data, I’m less persuaded that the coin is fair.
+
+---
+
+### Posterior = Prior + Update
+
 > I originally reckoned the coin was fair.
 
 > Given the HH data I have updated my estimate.
@@ -74,12 +82,6 @@ Frequentists phrase their conclusions like:
 ---
 
 Kruschke calls this _reallocating credibility_.
-
----
-
-Bayesian inference corresponds more closely to our itnuition:
-
-> Given the data, I’m more/less persuaded of my prior beliefs.
 
 ---
 
