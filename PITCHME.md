@@ -22,7 +22,7 @@ A coin is tossed twice and shows two heads.
 
 ---
 
-There are two approaches to statisfical inference:
+There are two approaches to statistical inference:
 
 - Frequentist
 - Bayesian
