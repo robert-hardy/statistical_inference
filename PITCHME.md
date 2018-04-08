@@ -8,12 +8,10 @@
 
 ---
 
-1. What is statistical inference? Meet F and B
-2. B = Algebra of credibility reallocating.
-3. How come B is the disrupter?
-4. Inference in real life.
-5. The Student’s t test.
-6. PyMC3 demo of Kruschke’s paper.
+1. The F and B approaches
+3. Inference in real life.
+4. The Student’s t test.
+5. PyMC3 demo of Kruschke’s paper.
 
 ---
 
