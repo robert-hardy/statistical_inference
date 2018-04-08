@@ -75,7 +75,8 @@ Bayesian inference corresponds more closely to our intuition:
 
 > Given the HH data I have updated my view.
 
-> I now estimate a 69% chance the coin is biased.
+> I now allocate 69% to the view that the coin is biased and 31% that the coin
+is fair.
 
 ---
 
