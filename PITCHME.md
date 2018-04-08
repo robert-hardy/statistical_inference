@@ -53,13 +53,11 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 > No, the coin is either biased or it is not.
 
----
+F believes that
 
-It is difficult to get F to express a view.
+> There is a 69% probability that the coin is biased
 
-> Ok, do you _reckon_ the coin is biased?
-
-> [no answer]
+is a nonsense statement.
 
 ---
 
