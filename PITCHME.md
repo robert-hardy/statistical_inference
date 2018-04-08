@@ -61,7 +61,7 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 > Given the HH data I have updated my estimate.
 
-> Now I calculate that there is a 69% chance that the coin is biased.
+> There is now a 69% chance the coin is biased.
 
 Kruschke calls this _reallocating credibility_.
 
