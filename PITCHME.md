@@ -22,8 +22,7 @@ A coin is tossed twice and shows two heads. What can your infer?
 
 ---
 
-Logical inference
-====
+### Logical inference
 
 Logic gives us conclusions that are guaranteed to be true but which are too weak to give any value here.
 
@@ -33,8 +32,7 @@ Logic gives us conclusions that are guaranteed to be true but which are too weak
 
 ---
 
-Probabilities
-====
+### Probabilities
 
 For a fair coin: P(HH)= 0.25
 
@@ -44,8 +42,7 @@ For a biased coin, P(HH) = 0.5625
 
 ---
 
-Meet F
-====
+### Meet F
 
 > I declare “the coin is biased!” but I expect to be wrong 25% of the time over the long term.
 
@@ -65,8 +62,7 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 ---
 
-Meet B
-====
+### Meet B
 
 > I originally reckoned that the coin was fair, but given the HH data I see, I have updated my estimate and now calculate that there is a 69% chance that the coin is biased.
 
