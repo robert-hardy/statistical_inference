@@ -44,7 +44,7 @@ Biased == 75% prob of heads.
 
 > I declare “the coin is biased!” but I expect to be wrong 25% of the time over the long term.
 
-F is in the business of controlling _Type-1 errors_.
+F is focussed on _Type-1 errors_.
 
 ---
 
