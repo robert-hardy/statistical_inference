@@ -18,7 +18,7 @@
 ---
 
 ### A coin example
-A coin is tossed twice and shows two heads. What can your infer?
+A coin is tossed twice and shows two heads.
 
 ---
 
