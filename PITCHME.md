@@ -3,72 +3,84 @@ Key concepts in statistical inference
 
 ---
 
-Starting point(s)
-====
-
-- PyMC3 & presentation by Thomas Wiecki on assessing a trading algo.
-- Pyfolio.
+- PyMC3, Pyfolio and presentation by Thomas Wiecki on assessing a trading algo.
 - John Kruschke: Bayesian estimation supersedes the t-test (Journal of experimental psychology 2012).
+- Jorge Lopez Puga, Martin Kryzwinski, Naomi Altman (Nature Methods, May 2015).
 
 ---
 
-Overview
-====
-1. What is statistical inference?
-2. Meet F and B
+1. What is statistical inference? Meet F and B
+2. B = Algebra of credibility reallocating.
 3. How come B is the disrupter?
 4. Inference in real life.
 5. The Student’s t test.
 6. PyMC3 demo of Kruschke’s paper.
 
-Disclaimer: the Bayesian approach appeals to me (my reasons why are in the following).
-
 ---
 
 A coin example
 ====
-A coin is tossed twice and shows two heads.
-What can your infer?
+A coin is tossed twice and shows two heads. What can your infer?
 
-Logical inference gives conclusions that are guaranteed to be true it which give no real value here:
-- Could the could be biased? Yes.
-- Could the coin be fair? Yes.
-- Could the coin have only tails? No.
+---
+
+Logical inference
+====
+
+Logic gives us conclusions that are guaranteed to be true but which are too weak to give any value here.
+
+> The coin could be biased.
+
+> The coin could be fair.
+
+---
+
+Probabilities
+====
+
+For a fair coin: P(HH)= 0.25
+
+For a biased coin, P(HH) = 0.5625
+
+[Biased == 75% prob of heads.]
 
 ---
 
 Meet F
 ====
-F: [thinks] For a fair coin: P(HH)= 0.25, so if I declare “the coin is biased!” I will be wrong 25% of the time.
 
-F: The coin is biased, with a p value of 0.25.
+> I declare “the coin is biased!” but I expect to be wrong 25% of the time over the long term.
 
-'Oh, you mean a 25% probability the coin is biased?'
+F is in the business of controlling _Type-1 errors_.
 
-F: No, not at all.
+---
 
-‘Ok, but do you _reckon_ the coin is biased?’
+Often F’s comment gets misunderstood as a ‘view’.
 
-F: [no answer].
+> Oh, you mean there is a 25% probability that the coin is biased?
+
+> No, the coin is either biased or it is not. I mean something else.
+
+> Ok, but do you _reckon_ the coin is biased?
+
+> [no answer]
 
 ---
 
 Meet B
 ====
 
-B: ‘I originally reckoned that the coin was fair, but given the HH data I see, I have updated my estimate and now calculate that there is a 75% chance that the coin is biased.’
+> I originally reckoned that the coin was fair, but given the HH data I see, I have updated my estimate and now calculate that there is a 69% chance that the coin is biased.
+
+Kruschke calls this _reallocating credibility_.
 
 ---
-
-‘Classical’ statistical inference makes precise, conclusions that often seem too technical:
-- I reject the null hypothesis with a p value of 0.25 (0.05 is a favourite).
 
 In this example with little data, the frequentist is clearly struggling.
 
 ---
 
 Bayesian inference gives conclusions that seem much more intuitive:
-
 > Given the data, I’m more persuaded the coin is biased.
 
 This 'update' process is very precise.
