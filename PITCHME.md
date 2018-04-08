@@ -1,5 +1,4 @@
-Key concepts in statistical inference
-====
+# Key concepts in statistical inference
 
 ---
 
@@ -18,8 +17,7 @@ Key concepts in statistical inference
 
 ---
 
-A coin example
-====
+## A coin example
 A coin is tossed twice and shows two heads. What can your infer?
 
 ---
