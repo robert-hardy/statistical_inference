@@ -73,7 +73,7 @@ Bayesian inference corresponds more closely to our intuition:
 
 ### Posterior = Prior + Update
 
-> I originally reckoned the coin was fair.
+> I originally had a balanced view: might be fair, might be biased.
 
 > Given the HH data I have updated my view.
 
