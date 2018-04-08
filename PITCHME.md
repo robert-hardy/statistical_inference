@@ -22,12 +22,10 @@ A coin is tossed twice and shows two heads.
 
 ---
 
+There are two approaches to statisfical inference:
 
-Logical inference is too weak.
-
-> The coin could be biased.
-
-> The coin could be fair.
+- Frequentist
+- Bayesian
 
 ---
 
