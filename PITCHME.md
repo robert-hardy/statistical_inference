@@ -53,6 +53,16 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 ---
 
+In this example with little data, the frequentist is clearly struggling.
+
+---
+
+Frequentists phrase their conclusions like:
+
+> I reject the null hypothesis with a p-value of 0.05.
+
+---
+
 ### Meet B
 
 > I originally reckoned the coin was fair.
@@ -61,20 +71,15 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 > There is now a 69% chance the coin is biased.
 
+---
+
 Kruschke calls this _reallocating credibility_.
 
 ---
 
-In this example with little data, the frequentist is clearly struggling.
+Bayesian inference corresponds more closely to our itnuition:
 
----
-
-Bayesian inference gives conclusions that seem much more intuitive:
-> Given the data, I’m more persuaded the coin is biased.
-
-This 'update' process is very precise.
-
-Kruschke calls it _reallocating credibility_.
+> Given the data, I’m more/less persuaded of my prior beliefs.
 
 ---
 
