@@ -53,12 +53,6 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 > No, the coin is either biased or it is not.
 
-F believes that
-
-> There is a 69% probability that the coin is biased
-
-is a nonsense statement.
-
 ---
 
 ### Meet B
