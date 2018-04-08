@@ -31,13 +31,12 @@ Logical inference is too weak.
 
 ---
 
-### Probabilities
+Probabilities:
 
-For a fair coin: P(HH)= 0.25
+- For a fair coin: P(HH)= 0.25
+- For a biased coin, P(HH) = 0.5625
 
-For a biased coin, P(HH) = 0.5625
-
-[Biased == 75% prob of heads.]
+Biased == 75% prob of heads.
 
 ---
 
