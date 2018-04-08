@@ -44,7 +44,9 @@ Biased == 75% prob of heads.
 
 > I declare “the coin is biased!” but I expect to be wrong 25% of the time over the long term.
 
-F is focussed on _Type-1 errors_.
+---
+
+F's approach is to limit _Type-1 errors_.
 
 ---
 
@@ -52,9 +54,13 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 > Oh, you mean there is a 25% probability that the coin is biased?
 
-> No, the coin is either biased or it is not. I mean something else.
+> No, the coin is either biased or it is not.
 
-> Ok, but do you _reckon_ the coin is biased?
+---
+
+It is difficult to get F to express a view.
+
+> Ok, do you _reckon_ the coin is biased?
 
 > [no answer]
 
