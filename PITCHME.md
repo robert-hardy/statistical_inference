@@ -33,7 +33,7 @@ Logical inference is too weak.
 
 For a fair coin:
 
-$$P(HH)= 0.25$$
+P(HH)= 0.25
 
 ---
 
