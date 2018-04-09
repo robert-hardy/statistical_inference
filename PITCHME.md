@@ -108,9 +108,9 @@ From the Puga, Kryzwinski and Altman paper.
 
 Two coins: one is fair, one is biased (75% prob of H).
 
-I randomly pick a one coin.
+I randomly pick one.
 
-I toss and get HH.
+I toss it twice and get HH.
 
 What is the probability I chose the biased coin?
 
