@@ -122,7 +122,7 @@ significant' effect.
 
 ---?image=student_t_distribution.png&size=auto 85%
 
----?image=t_test_in_a_spreadsheet.png&size=auto 70%
+---?image=t_test_in_a_spreadsheet.png&size=auto 50%
 
 ---
 
