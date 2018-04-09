@@ -88,7 +88,7 @@ What is the probability that we got the biased coin?
 ---?image=plots/tosses.png&size=auto 70%
 ---
 
-Here is an example from the Puga, Kryzwinski and Altman paper.
+That picture was inspired by the calculation done in the Puga, Kryzwinski and Altman paper.
 
 ---
 
