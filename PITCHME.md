@@ -114,13 +114,12 @@ I toss it twice and get HH.
 
 What is the probability I chose the biased coin?
 
----
+---?image=tree_of_probabilities.jpg&size=auto 70%
 
+---
 ### Bayes' theorem
 
 $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
-
----?image=tree_of_probabilities.jpg&size=auto 70%
 
 ---?image=coin_toss_calculations.jpg&size=auto 70%
 
