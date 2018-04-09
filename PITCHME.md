@@ -11,23 +11,21 @@ F has got lots of gotchas (sampling intention).
 - John Kruschke, Torrin Liddell: The Bayesian New Statistics ... (Psychon Bull Rev February 2017)
 - Jorge Lopez Puga, Martin Kryzwinski, Naomi Altman (Nature Methods, May 2015).
 
----?image=kruschke_liddell_table.png&size=auto 70%
-
 ---
 
 1. The F and B approaches
 2. The Student’s t test.
 3. PyMC3 demo of Kruschke’s paper.
 
----
+---?image=kruschke_liddell_table.png&size=auto 70%
 
+---
 ### A coin example
 A coin is tossed twice and shows two heads.
 
 How do the two camps handle this?
 
 ---
-
 ### Meet F
 
 > I declare “the coin is biased!” but I expect to be wrong 25% of the time over the long term.
