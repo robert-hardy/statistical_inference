@@ -26,17 +26,15 @@ Table from Kruschke.
 ### A coin example
 A coin is tossed twice and shows two heads.
 
----
-
-For a fair coin:
-
-P(HH)= 0.25
+How do the two camps handle this?
 
 ---
 
 ### Meet F
 
 > I declare “the coin is biased!” but I expect to be wrong 25% of the time over the long term.
+
+Note, for a fair coin: P(HH)= 0.25
 
 ---
 
