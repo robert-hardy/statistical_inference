@@ -1,9 +1,6 @@
 Monday
 # Key concepts in statistical inference
 
-B can handle small data.
-F has got lots of gotchas (sampling intention).
-
 ---
 
 - PyMC3, Pyfolio and presentation by Thomas Wiecki on assessing a trading algo.
@@ -125,34 +122,9 @@ significant' effect.
 
 ---?image=student_t_distribution.png&size=auto 85%
 
----
-
-
-NHST
-====
-A fair could tossed 10 times will show 10 heads in a row, 0.05% of the time.
-
-We will commit a Type 1 error 5 times every 10,000 repetitions, declaring that ‘the coin is biased’ when in fact it is not.
+---?image=t_test_in_a_spreadsheet.png&size=auto 70%
 
 ---
-
-Student’s t test
-====
-We have some sample data. The ‘t statistic’ would have that value or higher on p% of the repetitions. So if we reject the null hypothesis we will commit a type 1 error on p% of the repetitions.
-
----
-Bayesian approach
-====
-What is a credible setting for p given that we have seen 10 heads in a row.
-
-MLE says p=1.
-
-Bayesian just updates your previous guess.
-
----
-What is better about updating, rather than MLE?
-====
-
 
 Snippets
 ====
@@ -161,7 +133,8 @@ Bayesian is more _accessible_
 
 In frequentist analysis a primary goal is to keep the false alarm rate (type 1 errors) limited to 5% say.  Kruschke
 
-Example of a hustler — does everything possible to make the data look like it was produced by a ‘fair coin’. I suspect that NHST would absolutely fail here.
-
 Model calibration. In rates we build our models so that they are calibrated on expectations. But perhaps we should calibrate like credibility reallocation?
+
+B can handle small data.
+F has got lots of gotchas (sampling intention).
 
