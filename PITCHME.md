@@ -64,34 +64,18 @@ Kruschke calls this _reallocating credibility_.
 
 ### Meet B
 
-> I originally had a balanced view: might be fair, might be biased.
+> Originally fifty-fifty fair or biased.
 
-> Given the HH data I have updated my view.
+> Then I see HH.
 
 > I now allocate 69% to the view that the coin is biased and 31% that the coin
 is fair.
 
 ---
 
-> There is a 69% probability that the coin is biased.
+B updates her view based on data seen.
 
-The frequentist has a philosophical problem with this statement.
-
-It cannot be reconciled with their interpretation of probability.
-
----
-
-However, there are systems for interpreting probabilities as a measure of credibility.
-
-Seems to me that the frequentist’s definition is getting in the way.
-
----
-
-Prior + Model + Data -> Posterior
-
----
-
-$$Posterior \propto Prior \times Likelihood$$
+> Prior + Model + Data -> Posterior
 
 ---
 
@@ -99,8 +83,9 @@ $$Posterior \propto Prior \times Likelihood$$
 
 From the Puga, Kryzwinski and Altman paper.
 
----
+Uses Bayes's theorem.
 
+---
 
 Two coins: one is fair, one is biased (75% prob of H).
 
