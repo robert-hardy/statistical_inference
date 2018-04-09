@@ -122,6 +122,8 @@ $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 
 ---?image=tree_of_probabilities.jpg&size=auto 70%
 
+---?image=coin_toss_calculations.jpg&size=auto 70%
+
 ---
 
 ### R.A. Fisher
