@@ -105,6 +105,7 @@ $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 ---?image=coin_toss_calculations.jpg&size=auto 70%
 
 ---?image=plots/tosses.png&size=auto 70%
+---
 
 ### R.A. Fisher
 How come F is considered to be the ‘official’ approach, with B the newcomer?
