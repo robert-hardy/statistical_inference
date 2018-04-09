@@ -1,4 +1,8 @@
+Monday
 # Key concepts in statistical inference
+
+B can handle small data.
+F has got lots of gotchas (sampling intention).
 
 ---
 
@@ -8,22 +12,18 @@
 
 ---
 
+Table from Kruschke.
+
+---
+
 1. The F and B approaches
-3. Inference in real life.
-4. The Student’s t test.
-5. PyMC3 demo of Kruschke’s paper.
+2. The Student’s t test.
+3. PyMC3 demo of Kruschke’s paper.
 
 ---
 
 ### A coin example
 A coin is tossed twice and shows two heads.
-
----
-
-There are two approaches to statistical inference:
-
-- Frequentist
-- Bayesian
 
 ---
 
@@ -43,6 +43,12 @@ F's approach is to limit _Type-1 errors_.
 
 ---
 
+In this example with little data, the frequentist approach struggles.
+
+Usually people like a p-value of 5% before they say ‘statistically significant’.
+
+---
+
 Often F’s comment gets misunderstood as a ‘view’.
 
 > Oh, you mean there is a 25% probability that the coin is biased?
@@ -51,25 +57,17 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 ---
 
-In this example with little data, the frequentist is clearly struggling.
-
----
-
-Frequentists phrase their conclusions like:
-
-> I reject the null hypothesis with a p-value of 0.05.
-
----
-
-### Meet B
-
-Bayesian inference corresponds more closely to our intuition:
+What we really want is something like:
 
 > Given the data, I’m less persuaded that the coin is fair.
 
 ---
 
-### Posterior = Prior + Update
+Kruschke calls this _reallocating credibility_.
+
+---
+
+### Meet B
 
 > I originally had a balanced view: might be fair, might be biased.
 
@@ -80,12 +78,47 @@ is fair.
 
 ---
 
-Kruschke calls this _reallocating credibility_.
+> There is a 69% probability that the coin is biased.
+
+The frequentist has a philosophical problem with this statement.
+
+It cannot be reconciled with their interpretation of probability.
 
 ---
 
-Aside
-====
+However, there are systems for interpreting probabilities as a measure of credibility.
+
+Seems to me that the frequentist’s definition is getting in the way.
+
+---
+
+Prior + Model + Data -> Posterior
+
+---
+
+$$Posterior /propto Prior /times Likelihood$$
+
+---
+
+### An example with Bayes’ Theorem
+
+From the Puga, Kryzwinski and Altman paper.
+
+---
+
+I randomly pick a coin. One is fair, one is biased (75% prob of H).
+
+I toss and get HH.
+
+What is the probability I chose the biased coin?
+
+---
+
+P(biased|HH) = P(HH|biased) x P(biased) / P(HH)
+
+---
+
+### R.A. Fisher
 How come F is considered to be the ‘official’ approach, with B the newcomer?
 
 Many coins
@@ -104,18 +137,6 @@ Poker
 You have a pair of tens. The fourth street shows a Jack. What is the probability that your opponent has made a pair of Jacks?
 
 Amateur? Higher probability, because they are more likely to punt if holding a single queen.
-
----
-My point
-====
-Inference is not an isolated practice. The question you ask depends on the problem you are facing.
-
-
-Intuition
-====
-We toss a coin 10 times and get 8 heads. But still it could be a fair coin.
-
-We toss a coin 100 times and get 80 heads.
 
 ---
 
@@ -239,3 +260,4 @@ In frequentist analysis a primary goal is to keep the false alarm rate (type 1 e
 Example of a hustler — does everything possible to make the data look like it was produced by a ‘fair coin’. I suspect that NHST would absolutely fail here.
 
 Model calibration. In rates we build our models so that they are calibrated on expectations. But perhaps we should calibrate like credibility reallocation?
+
