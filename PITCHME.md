@@ -123,7 +123,7 @@ average, based on two samples.
 For example, to show that some medical treatment has a 'statistically
 significant' effect.
 
----?image=student_t_distribution.png&size=auto 70%
+---?image=student_t_distribution.png&size=auto 85%
 
 ---
 
