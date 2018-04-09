@@ -111,111 +111,22 @@ $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 
 ---
 
-### R.A. Fisher
-How come F is considered to be the ‘official’ approach, with B the newcomer?
-
-Many coins
-====
-I toss the coin 50 times and see this:
-
-What do you think now?
-
-F replies
-====
-For a fair coin P(33 heads in 50 tosses)=, so if I declare “the coin
-
-
-Poker
-====
-You have a pair of tens. The fourth street shows a Jack. What is the probability that your opponent has made a pair of Jacks?
-
-Amateur? Higher probability, because they are more likely to punt if holding a single queen.
+That is the 69% that B mentioned earlier.
 
 ---
 
-More samples, tighter distribution
-====
+### Student’s t test
 
-Bimomial(10, 0.5): 90%=Prob(2<X<8)
+Is used in cases where we want to show that two populations have a different
+average, based on two samples.
 
-Binomial(100, 0.5): 90%=Prob(40<X<60)
+For example, to show that some medical treatment has a 'statistically
+significant' effect.
 
-There is rarely any _conclusive_ evidence.
-
-Student’s t test
-====
-
-Coin tossing
-====
-Model: Binomial(10, 0.5)
-Statistic: nb heads
-
-
-
-Bayesian approach
-====
-What is our best guess at the long-term average?
-Rather than imagining the existence of some ideal ‘probability p’.
-
-What is a probability?
-====
-We only ever carry out experiments. We never see a real probability.
-From the point of view of experiments, only something like a long-term average or an updated big process shows any kind of regularity in time.
-
-Our probability models are an algebra of probabilities and do give us the right answers, but reality is more grungy — we only ever get a sequence that looks like it gets closer to a limit but within a distribution of ‘error’.
+---?image=student_t_distribution.png&size=auto 70%
 
 ---
 
-What is the question?
-====
-A coin is tossed twice and shows two heads.
-What now?
-
-Could the could be biased? Yes.
-Could the coin be fair? Yes.
-Could the coin have only tails? No.
-
----
-Poker
-====
-You have a pair of tens. The fourth street shows a Jack. What is the probability that your opponent has made a pair of Jacks?
-
-Amateur? Higher probability, because they are more likely to punt if holding a single queen.
-
----
-My point
-====
-Inference is not an isolated practice. The question you ask depends on the problem you are facing.
-
----
-P values
-====
-A cutoff of 5% is common. It means that you hope to make a type-1 error on fewer than 5% of the repetitions.
-
-It suggests ‘extreme’, or that you would be unlucky if you got the wrong answer.
-
-
-A problem we all can agree on
-====
-Two coins (p=0.5 and p=0.75). One is randomly chosen then tossed twice.
-We see HH.
-What is the probability that the biased coin was picked?
-
----
-
-Application of Bayes’s theorem
-====
-$$P(biased|HH) = frac{P(HH|biased) P(biased)}{P(HH)}$$
-
-This gives $$P(biased|HH)=0.69$$.
-
----
-
-A continuity argument
-====
-Statistical inference should tend to the same result as logical inference.
-
----
 
 NHST
 ====
