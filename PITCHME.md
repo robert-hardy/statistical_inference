@@ -8,12 +8,10 @@ F has got lots of gotchas (sampling intention).
 
 - PyMC3, Pyfolio and presentation by Thomas Wiecki on assessing a trading algo.
 - John Kruschke: Bayesian estimation supersedes the t-test (Journal of experimental psychology 2012).
-- John Kruschke, Torrin Liddell: Bayesian data analysis for newcomers (Psychon Bull Rev April 2017)
+- John Kruschke, Torrin Liddell: The Bayesian New Statistics ... (Psychon Bull Rev February 2017)
 - Jorge Lopez Puga, Martin Kryzwinski, Naomi Altman (Nature Methods, May 2015).
 
----
-
-Table from Kruschke.
+---?image=kruschke_liddell_table.png&size=auto 70%
 
 ---
 
