@@ -95,7 +95,7 @@ Prior + Model + Data -> Posterior
 
 ---
 
-$$Posterior /propto Prior /times Likelihood$$
+$$Posterior \propto Prior \times Likelihood$$
 
 ---
 
@@ -116,7 +116,9 @@ What is the probability I chose the biased coin?
 
 ---
 
-P(biased|HH) = P(HH|biased) x P(biased) / P(HH)
+### Bayes' theorem
+
+$$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 
 ---
 
