@@ -99,7 +99,7 @@ $$Posterior \propto Prior \times Likelihood$$
 
 ---
 
-### An example with Bayes’ Theorem
+### A calculation that both agree on
 
 From the Puga, Kryzwinski and Altman paper.
 
@@ -119,6 +119,10 @@ What is the probability I chose the biased coin?
 ### Bayes' theorem
 
 $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
+
+---
+
+![tree_of_probabilities](tree_of_probabilities.jpg)
 
 ---
 
