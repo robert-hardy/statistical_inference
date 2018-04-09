@@ -105,7 +105,10 @@ From the Puga, Kryzwinski and Altman paper.
 
 ---
 
-I randomly pick a coin. One is fair, one is biased (75% prob of H).
+
+Two coins: one is fair, one is biased (75% prob of H).
+
+I randomly pick a one coin.
 
 I toss and get HH.
 
