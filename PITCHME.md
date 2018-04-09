@@ -120,7 +120,7 @@ What is the probability I chose the biased coin?
 
 $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 
----?image=tree_of_probabilities.jpg
+---?image=tree_of_probabilities.jpg&size=auto 70%
 
 ---
 
