@@ -77,13 +77,18 @@ B updates her view based on data seen.
 
 > Prior + Model + Data -> Posterior
 
+B uses Bayes's theorem for the update process.
+
 ---
 
-### A calculation that both agree on
+Bayes's theorem itself is not controversial.
 
-From the Puga, Kryzwinski and Altman paper.
+What is the probability that we got the biased coin?
 
-Uses Bayes's theorem.
+---?image=plots/tosses.png&size=auto 70%
+---
+
+Here is an example from the Puga, Kryzwinski and Altman paper.
 
 ---
 
@@ -104,7 +109,6 @@ $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 
 ---?image=coin_toss_calculations.jpg&size=auto 70%
 
----?image=plots/tosses.png&size=auto 70%
 ---
 
 ### R.A. Fisher
