@@ -1,4 +1,3 @@
-Monday
 # Key concepts in statistical inference
 
 ---
