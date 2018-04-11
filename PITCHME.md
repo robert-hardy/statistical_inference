@@ -35,6 +35,8 @@ F is actually carrying out a different exercise:
 
 In this example with little data, the frequentist approach struggles.
 
+---
+
 Usually people like a p-value of 5% before they say ‘statistically significant’.
 
 ---
