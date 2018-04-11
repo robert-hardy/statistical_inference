@@ -84,6 +84,7 @@ $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 
 ---?image=coin_toss_calculations.jpg&size=auto 70%
 
+---
 ### Problems with the classical aproach
 
 ---
@@ -98,9 +99,6 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 The big gotcha is the issue of sampling intentions.
 
----
-
-Dance of the CIs.
 
 ---
 
