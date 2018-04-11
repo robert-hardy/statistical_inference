@@ -84,8 +84,8 @@ For B:
 ### Student’s t test
 
 Different variations:
-- **One sample**: to ‘prove’ that the population mean is not zero.
-- **Two sample**: to ‘prove’ that two populations have a different mean.
+- **One sample**: to determine whether $$\mu == 0$$.
+- **Two sample**: to determine whether $$\mu_1 == \mu_2$$..
 
 NB ‘sample’ here is a collection: ‘we sampled once and collected 10 data points’.
 ---
