@@ -1,5 +1,3 @@
-Monday evening
-
 # Key concepts in statistical inference
 
 ---
