@@ -12,7 +12,7 @@
 
 ---
 
-A coin is tossed twice and shows two heads.
+A coin is tossed twice and shows HH.
 
 > Given the data, I’m less persuaded that the coin is fair.
 
