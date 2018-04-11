@@ -1,17 +1,21 @@
+Monday evening
+
 # Key concepts in statistical inference
 
 ---
 
 - PyMC3, Pyfolio and presentation by Thomas Wiecki on assessing a trading algo.
+- How does the Student-t test work?
 - John Kruschke: Bayesian estimation supersedes the t-test (Journal of experimental psychology 2012).
 - John Kruschke, Torrin Liddell: The Bayesian New Statistics ... (Psychon Bull Rev February 2017)
 - Jorge Lopez Puga, Martin Kryzwinski, Naomi Altman (Nature Methods, May 2015).
 
 ---
-
-1. The F and B approaches
-2. The Student’s t test.
-3. PyMC3 demo of Kruschke’s paper.
+1. Different approaches
+2. The F approach.
+3. The Student’s t test.
+4. The B approach.
+5. PyMC3 demo of Kruschke’s paper.
 
 ---?image=kruschke_liddell_table.png&size=auto 70%
 
@@ -19,18 +23,38 @@
 ### A coin example
 A coin is tossed twice and shows two heads.
 
-How do the two camps handle this?
+---
+
+I was hoping for something like:
+
+> Given the data, I’m less persuaded that the coin is fair.
+
+---
+
+Kruschke calls this _reallocating credibility_.
+
+---
+
+What does the frequentist have to say?
 
 ---
 ### Meet F
 
-For a fair coin: P(HH)= 0.25
+For a fair coin: P(HH)= 1/4.
 
 > I declare “the coin is biased!” but I expect to be wrong 25% of the time over the long term.
 
+That is not what I was expecting.
+
 ---
 
-F's approach is to limit _Type-1 errors_.
+F is actually carrying out a different exercise:
+
+> F tries to limit _Type-1 errors_.
+
+Clue to everything:
+
+> ... over the long term.
 
 ---
 
@@ -48,21 +72,48 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 ---
 
-What we really want is something like:
+For F:
 
-> Given the data, I’m less persuaded that the coin is fair.
+> Probability == long term frequency.
+
+For B:
+
+> Probability == Algebra of Credibility
+
+---
+### Student’s t test
+
+Different variations:
+- **One sample**: to ‘prove’ that the population mean is not zero.
+- **Two sample**: to ‘prove’ that two populations have a different mean.
+
+NB ‘sample’ here is a collection: ‘we sampled once and collected 10 data points’.
+---
+
+See [this page here](https://www.statisticssolutions.com/manova-analysis-one-sample-t-test/), and discuss the assumptions.
+
+---?image=student_t_distribution.png&size=auto 85%
+
+---?image=t_test_in_a_spreadsheet.png&size=auto 50%
+
+---
+### The Bayesian approach
+
+What would they say about the coin toss?
 
 ---
 
-Kruschke calls this _reallocating credibility_.
+For B:
+
+> Probability == Algebra of Credibility
 
 ---
 
 ### Meet B
 
-> Originally fifty-fifty fair or biased.
+> Originally I was fifty-fifty.
 
-> Then I see HH.
+> Then I saw HH.
 
 > I now allocate 69% to the view that the coin is biased and 31% that the coin
 is fair.
@@ -79,7 +130,7 @@ B uses Bayes's theorem for the update process.
 
 Bayes's theorem itself is not controversial.
 
-What is the probability that we got the biased coin?
+It’s just how the Bayesian use it as an inference tool that annoys the Frequentists.
 
 ---?image=plots/tosses.png&size=auto 70%
 ---
@@ -110,18 +161,12 @@ $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 That is the 69% that B mentioned earlier.
 
 ---
+Questions
 
-### Student’s t test
-
-Is used in cases where we want to show that two populations have a different
-average, based on two samples.
-
-For example, to show that some medical treatment has a 'statistically
-significant' effect.
-
----?image=student_t_distribution.png&size=auto 85%
-
----?image=t_test_in_a_spreadsheet.png&size=auto 50%
+- Is The B approach more stable? ‘Dance of the CIs’.
+- B approaches the building of a model, prob with PyMC3.
+- F gotchas, like sampling intentions.
+- F: I don’t distort my results with a prior.
 
 ---
 
@@ -136,4 +181,3 @@ Model calibration. In rates we build our models so that they are calibrated on e
 
 B can handle small data.
 F has got lots of gotchas (sampling intention).
-
