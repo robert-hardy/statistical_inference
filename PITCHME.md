@@ -54,8 +54,6 @@ B has an update process:
 
 > Prior + Model + Data -> Posterior
 
-B uses Bayes's theorem for the update process.
-
 ---
 
 Coming next, a picture inspired by the Puga, Kryzwinski and Altman paper
