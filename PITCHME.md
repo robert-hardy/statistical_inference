@@ -138,22 +138,3 @@ For B:
 Bayes's theorem itself is not controversial.
 
 It’s just how the Bayesian use it as an inference tool that annoys the Frequentists.
-
----
-Questions
-
-- Is the B approach more stable? ‘Dance of the CIs’.
-
----
-
-Snippets
-====
-
-Bayesian is more _accessible_
-
-In frequentist analysis a primary goal is to keep the false alarm rate (type 1 errors) limited to 5% say.  Kruschke
-
-Model calibration. In rates we build our models so that they are calibrated on expectations. But perhaps we should calibrate like credibility reallocation?
-
-B can handle small data.
-F has got lots of gotchas (sampling intention).
