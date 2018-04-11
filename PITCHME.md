@@ -10,17 +10,7 @@ Monday evening
 - John Kruschke, Torrin Liddell: The Bayesian New Statistics ... (Psychon Bull Rev February 2017)
 - Jorge Lopez Puga, Martin Kryzwinski, Naomi Altman (Nature Methods, May 2015).
 
----
-1. Different approaches
-2. The F approach.
-3. The Student’s t test.
-4. The B approach.
-5. PyMC3 demo of Kruschke’s paper.
-
 ---?image=kruschke_liddell_table.png&size=auto 70%
-
----
-### A coin example
 
 ---
 
