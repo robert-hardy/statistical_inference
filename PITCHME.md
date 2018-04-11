@@ -74,7 +74,6 @@ What is the probability I chose the biased coin?
 ---?image=tree_of_probabilities.jpg&size=auto 70%
 
 ---
-Bayes's theorem:
 
 $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 
