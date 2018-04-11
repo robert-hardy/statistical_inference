@@ -5,8 +5,8 @@ Monday evening
 ---
 
 - PyMC3, Pyfolio and presentation by Thomas Wiecki on assessing a trading algo.
-- How does the Student-t test work?
 - John Kruschke: Bayesian estimation supersedes the t-test (Journal of experimental psychology 2012).
+- How does the Student-t test work?
 - John Kruschke, Torrin Liddell: The Bayesian New Statistics ... (Psychon Bull Rev February 2017)
 - Jorge Lopez Puga, Martin Kryzwinski, Naomi Altman (Nature Methods, May 2015).
 
