@@ -16,8 +16,6 @@ A coin is tossed twice and shows two heads.
 
 > Given the data, I’m less persuaded that the coin is fair.
 
----
-
 Kruschke calls this _reallocating credibility_.
 
 ---
