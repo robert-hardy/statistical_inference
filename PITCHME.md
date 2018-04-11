@@ -19,6 +19,11 @@ A coin is tossed twice and shows HH.
 Kruschke calls this _reallocating credibility_.
 
 ---
+### Warning
+
+It is not so simple in classical statistical inference.
+
+---
 ### Meet F
 
 For a fair coin: P(HH)= 1/4.
