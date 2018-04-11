@@ -83,7 +83,6 @@ For B:
 ---
 ### Student’s t test
 
-Different variations:
 - **One sample**: to determine whether $\mu == 0$.
 - **Two sample**: to determine whether $\mu_1 == \mu_2$.
 
