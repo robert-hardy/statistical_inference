@@ -56,11 +56,11 @@ B has an update process:
 
 B uses Bayes's theorem for the update process.
 
----?image=plots/tosses.png&size=auto 70%
 ---
 
-That picture was inspired by the calculation done in the Puga, Kryzwinski and Altman paper.
+Coming next, a picture inspired by the Puga, Kryzwinski and Altman paper
 
+---?image=plots/tosses.png&size=auto 70%
 ---
 
 Two coins: one is fair, one is biased (75% prob of H).
