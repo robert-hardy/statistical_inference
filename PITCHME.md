@@ -21,11 +21,10 @@ Monday evening
 
 ---
 ### A coin example
-A coin is tossed twice and shows two heads.
 
 ---
 
-I was hoping for something like:
+A coin is tossed twice and shows two heads.
 
 > Given the data, I’m less persuaded that the coin is fair.
 
@@ -34,17 +33,11 @@ I was hoping for something like:
 Kruschke calls this _reallocating credibility_.
 
 ---
-
-What does the frequentist have to say?
-
----
 ### Meet F
 
 For a fair coin: P(HH)= 1/4.
 
 > I declare “the coin is biased!” but I expect to be wrong 25% of the time over the long term.
-
-That is not what I was expecting.
 
 ---
 
@@ -52,15 +45,57 @@ F is actually carrying out a different exercise:
 
 > F tries to limit _Type-1 errors_.
 
-Clue to everything:
-
-> ... over the long term.
-
 ---
 
 In this example with little data, the frequentist approach struggles.
 
 Usually people like a p-value of 5% before they say ‘statistically significant’.
+
+---
+### Meet B
+
+> Originally I was fifty-fifty.
+
+> Then I saw HH.
+
+> I now allocate 69% to the view that the coin is biased and 31% that the coin
+is fair.
+
+---
+
+B has an update process:
+
+> Prior + Model + Data -> Posterior
+
+B uses Bayes's theorem for the update process.
+
+---?image=plots/tosses.png&size=auto 70%
+---
+
+That picture was inspired by the calculation done in the Puga, Kryzwinski and Altman paper.
+
+---
+
+Two coins: one is fair, one is biased (75% prob of H).
+
+I randomly pick one.
+
+I toss it twice and get HH.
+
+What is the probability I chose the biased coin?
+
+---?image=tree_of_probabilities.jpg&size=auto 70%
+
+---
+Bayes's theorem:
+
+$$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
+
+---?image=coin_toss_calculations.jpg&size=auto 70%
+
+---
+
+That is the 69% that B mentioned earlier.
 
 ---
 
@@ -108,56 +143,10 @@ For B:
 
 ---
 
-### Meet B
-
-> Originally I was fifty-fifty.
-
-> Then I saw HH.
-
-> I now allocate 69% to the view that the coin is biased and 31% that the coin
-is fair.
-
----
-
-B updates her view based on data seen.
-
-> Prior + Model + Data -> Posterior
-
-B uses Bayes's theorem for the update process.
-
----
 
 Bayes's theorem itself is not controversial.
 
 It’s just how the Bayesian use it as an inference tool that annoys the Frequentists.
-
----?image=plots/tosses.png&size=auto 70%
----
-
-That picture was inspired by the calculation done in the Puga, Kryzwinski and Altman paper.
-
----
-
-Two coins: one is fair, one is biased (75% prob of H).
-
-I randomly pick one.
-
-I toss it twice and get HH.
-
-What is the probability I chose the biased coin?
-
----?image=tree_of_probabilities.jpg&size=auto 70%
-
----
-Bayes's theorem:
-
-$$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
-
----?image=coin_toss_calculations.jpg&size=auto 70%
-
----
-
-That is the 69% that B mentioned earlier.
 
 ---
 Questions
