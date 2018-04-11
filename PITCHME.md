@@ -84,9 +84,7 @@ $$P(biased|HH) = \frac{P(HH|biased) \times P(biased)}{P(HH)}$$
 
 ---?image=coin_toss_calculations.jpg&size=auto 70%
 
----
-
-That is the 69% that B mentioned earlier.
+### Problems with the classical aproach
 
 ---
 
@@ -98,13 +96,17 @@ Often F’s comment gets misunderstood as a ‘view’.
 
 ---
 
-For F:
+The big gotcha is the issue of sampling intentions.
 
-> Probability == long term frequency.
+---
 
-For B:
+Dance of the CIs.
 
-> Probability == Algebra of Credibility
+---
+
+F: 'I don’t distort my results with a prior.'
+
+Well, let's look at the Student t test.
 
 ---
 ### Student’s t test
@@ -122,18 +124,16 @@ See [this page here](https://www.statisticssolutions.com/manova-analysis-one-sam
 ---?image=t_test_in_a_spreadsheet.png&size=auto 50%
 
 ---
-### The Bayesian approach
 
-What would they say about the coin toss?
+For F:
 
----
+> Probability == long term frequency.
 
 For B:
 
 > Probability == Algebra of Credibility
 
 ---
-
 
 Bayes's theorem itself is not controversial.
 
@@ -142,10 +142,7 @@ It’s just how the Bayesian use it as an inference tool that annoys the Frequen
 ---
 Questions
 
-- Is The B approach more stable? ‘Dance of the CIs’.
-- B approaches the building of a model, prob with PyMC3.
-- F gotchas, like sampling intentions.
-- F: I don’t distort my results with a prior.
+- Is the B approach more stable? ‘Dance of the CIs’.
 
 ---
 
