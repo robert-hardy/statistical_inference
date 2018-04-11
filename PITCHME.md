@@ -84,8 +84,8 @@ For B:
 ### Student’s t test
 
 Different variations:
-- **One sample**: to determine whether $$\mu == 0$$.
-- **Two sample**: to determine whether $$\mu_1 == \mu_2$$..
+- **One sample**: to determine whether $\mu == 0$.
+- **Two sample**: to determine whether $\mu_1 == \mu_2$.
 
 NB ‘sample’ here is a collection: ‘we sampled once and collected 10 data points’.
 ---
