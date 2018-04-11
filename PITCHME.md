@@ -46,8 +46,7 @@ Usually people like a p-value of 5% before they say ‘statistically significant
 
 > Then I saw HH.
 
-> I now allocate 69% to the view that the coin is biased and 31% that the coin
-is fair.
+> I now allocate 69% to the view that the coin is biased.
 
 ---
 
