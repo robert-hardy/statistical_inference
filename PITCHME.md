@@ -19,6 +19,11 @@ A coin is tossed twice and shows HH.
 Kruschke calls this _reallocating credibility_.
 
 ---
+
+Coming next, a picture inspired by the Puga, Kryzwinski and Altman paper
+
+---?image=plots/tosses.png&size=auto 70%
+---
 ### Warning
 
 It is not so simple in classical statistical inference.
@@ -63,7 +68,7 @@ Note: explicit mention of Prior and Model.
 
 ---
 
-Coming next, a picture inspired by the Puga, Kryzwinski and Altman paper
+That picture again, inspired by the Puga, Kryzwinski and Altman paper
 
 ---?image=plots/tosses.png&size=auto 70%
 ---
