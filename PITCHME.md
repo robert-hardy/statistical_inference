@@ -59,6 +59,8 @@ B has an update process:
 
 > Prior + Model + Data -> Posterior
 
+Note: explicit mention of Prior and Model.
+
 ---
 
 Coming next, a picture inspired by the Puga, Kryzwinski and Altman paper
